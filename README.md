@@ -6,3 +6,4 @@
 2 - 
  pip install fastapi uvicorn[standard]
  # ui
+# telegram_bot
