@@ -109,3 +109,4 @@ async def submit_news(data: dict  ):
             )
 
             return True
+    
