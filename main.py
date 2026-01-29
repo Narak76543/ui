@@ -34,3 +34,8 @@ async def add_ngrok_skip_header(request: Request, call_next):
     # This header tells ngrok to show your HTML immediately
     response.headers["ngrok-skip-browser-warning"] = "true"
     return response
+from api.register import router as registration_router
+
+# app = FastAPI()
+
+# app.include_router(registration_router)

@@ -16,4 +16,3 @@ class Config :
 
 
 config = Config()
-print (Config.DATABASE_URL)

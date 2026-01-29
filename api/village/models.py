@@ -10,3 +10,4 @@ class Village(Base):
     bot_token        = Column(String)
     commune_chat_id  = Column(String)
     district_chat_id = Column(String)
+    province_chat_id = Column(String)
