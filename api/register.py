@@ -55,11 +55,15 @@ def init_app(app):
             )
 
         new_village = Village(
-            unique_id        = village.unique_id,
-            name_khmer       = village.name_khmer,
-            bot_token        = village.bot_token,
-            commune_chat_id  = village.commune_chat_id,
-            district_chat_id = village.district_chat_id
+            unique_id          = village.unique_id,
+            name_khmer         = village.name_khmer,
+            bot_token          = village.bot_token,
+            commune_chat_id    = village.commune_chat_id,
+            district_chat_id   = village.district_chat_id,
+            province_chat_id   = village.province_chat_id,
+            commune_bot_token  = village.commune_bot_token,
+            district_bot_token = village.district_bot_token
+
         )
 
         try:
